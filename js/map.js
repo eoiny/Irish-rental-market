@@ -10,9 +10,9 @@ var caption = d3.select("#caption")
 
     caption.style("left", "550px")     
     caption.style("top", "100px");  
-    caption.select(".info").html("Average Rents 2014<br/>"); 
-    caption.select(".content").html("Rollever the map to reveal more detail on rents. The charts below revela further information on a selection of towns.");
-    caption.select(".cash").html("<br><br><br><br>Legend:<br>");  ;
+    caption.select(".info").html("Average Rents for 2014<br/>"); 
+    caption.select(".content").html("Rollover the map to reveal more detail on rents. The charts below revela further information on a selection of towns.");
+    //caption.select(".cash").html("<br><br><br><br>Legend:<br>");  
 
 var projection = d3.geo.albers()
     .center([-0.4, 54.4])
