@@ -7,4 +7,4 @@ The current version is the first wroking draft and needs to be refactored and ra
 
 It based on two tutorials:
 * Mike Bostock's  [Let’s Make a Map.](http://bost.ocks.org/mike/map/)
-*Jim Vallandingham's  [How to Make Interactive Linked Small Multiples.](http://flowingdata.com/2014/10/15/linked-small-multiples/) 
+* Jim Vallandingham's  [How to Make Interactive Linked Small Multiples.](http://flowingdata.com/2014/10/15/linked-small-multiples/) 
