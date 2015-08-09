@@ -1,0 +1,204 @@
+body {
+  padding-top: 25px;
+}
+
+.background {
+  fill: none;
+}
+.hidden {
+  display:none;
+  opacity: 0.0;
+}
+.starter-template {
+  padding: 20px 15px;
+  text-align: left;
+}
+
+.map-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.country-labels {
+  font-size:11px;
+}
+.caption {
+  font-size:9px;
+}
+.static_year{
+  font-size:9px;
+}
+.year {
+  font-size:9px;
+}
+.containers {
+  float: left;
+  margin-right: 10px;
+  width: 110px;
+  height: 150px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+
+
+
+.axis text {
+  fill: #999;
+  font-size: 10px;
+}
+
+.y.axis path {
+  display: none;
+}
+.line {
+  fill: none;
+  stroke: #9f009f;
+  stroke-width: 2px;
+  opacity: .75;
+}
+.area {
+  fill: #ffeeff;
+  opacity: .5;
+}
+
+.pinPos {
+  fill: #768858;
+  opacity: .4;
+  stroke:#145e14;
+  stroke-width: .2;
+  stroke-opacity: 1.0;
+}
+.pinNeg {
+  fill: #b300b3;
+  opacity: .4;
+  stroke:#145e14;
+  stroke-width: .5;
+}
+
+/*.year {
+  fill: none;
+  stroke: #d3d3d3;
+  stroke-width: .75px;
+  opacity: .75;
+}*/
+
+.map-section {
+    height: 100%;
+    padding-top: 5px;
+    text-align: center;
+    background: #fff;
+}
+
+.graph-section {
+    height: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #fff;
+}
+
+
+/*map stuff */
+.subunit.SCT { display: none; }
+.subunit.WLS { display: none; }
+.subunit.NIR { fill: #d3d3d3; 
+                opacity: .85;}
+.subunit.ENG { display: none; }
+.subunit.IRL { fill: #d3d3d3; 
+                opacity: .1;}
+
+.subunit-boundary {
+  fill: none;
+  stroke: #777;
+  stroke-opacity:.25;
+  stroke-linejoin: round;
+}
+
+.subunit-boundary.NIR {
+  stroke: #aaa;
+}
+
+.place,
+.place-label {
+  fill: #fff;
+}
+
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  pointer-events: none;
+}
+
+div.tooltip{
+   position:absolute;
+   text-align:center;
+   width:120px;
+   padding:10px;
+   font-size:10px;
+   font-family:Helvetica,sans-serif;
+   background:#ffffff;
+   pointer-events:none;
+   opacity:0;
+   border:1px solid #ccc;
+}
+
+ div.tooltip h3{
+  font-family:Helvetica,sans-serif;
+  text-align:center;
+  font-size:12px;
+  margin:0 0 10px 0;
+  border-bottom:2px solid #000;
+  padding-bottom:6px;
+  line-height:1.2em;
+}
+
+div.tooltip .cash{
+  font-size:8px;
+  font-weight:normal;
+  margin-bottom:4px;
+  text-transform:uppercase;
+}
+
+.legend circle {
+  fill: none;
+  stroke: #ccc;
+}
+
+.legend text {
+  fill: #d3d3d3;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.instruct text {
+  fill: #000;
+  font: 12px sans-serif;
+  text-anchor: middle;
+}
+div.caption{
+   position:absolute;
+   text-align:left;
+   width:160px;
+   padding:10px;
+   font-size:10px;
+   font-family:Helvetica,sans-serif;
+   background:#ffffff;
+   pointer-events:none;
+   opacity:0;
+   /*border:1px solid #ccc;*/
+}
+
+div.caption h3{
+  font-family:Helvetica,sans-serif;
+  text-align:left;
+  font-size:13px;
+  margin:0 0 10px 0;
+  line-height:1.2em;
+}
+
+

@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[<script src="js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body onload="mapy()">
+    <div id = "tooltip" class = "tooltip">
+      <h3><div class = "info"></div></h3>
+      <div class = "content"></div>
+      <div class = "cash"></div></div>
+    </div>
+    <div id = "caption" class = "caption">
+      <h3><div class = "info"></div></h3>
+      <div class = "content"></div>
+      <div class = "cash"></div></div>
+    </div>
+    <section id="intro" class="map-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="starter-template">
+              <h1>Average rents across Ireland</h1>
+              <p class="lead">The latest data published by the PRTB indicates that there were
+                              over 150,000 landlords, 635,000 tenants and over 300,000 tenancies
+                              registered in 2014.
+              </p><br><br>
+              <p>The interactive map and charts below, explores a selection of the dataset.
+              
+            </div> </div> 
+            <div class="col-md-8 pull-right">  
+             <div class="pull-right"><div id="map"></div></div>
+            </div>
+
+           
+          </div>
+      </div>
+    <!-- /.container -->
+    </section>
+
+    <section id="intro" class="graph-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="starter-template">
+
+              
+            
+              <h3>Average rents for selected towns</h3>
+            The charts below show the changes in rent between 2008 and 2014.<br> Rolloever the charts for more detail.<br><br><br>
+              <div id="chart"></div>
+              
+            </div>
+           </div> 
+          </div>
+      </div>
+    <!-- /.container -->
+    </section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/multiples.js"></script>
+    
+    
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>
