@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <title></title>
+    <style>
+ 
+    </style>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+<div id="chart"></div>
+<script src="js/mapNew.js"></script>
+<script>
+var params = {mapping:"data/map/uk.json",data: "data/rentAllYrsFoc.csv",style:"css/main.css",width:960,height:500};
+var query = window.location.search.substring(1);
+ 
+var vars = query.split("&");
+vars.forEach(function(v) {
+    p=v.split("=");
+    params[p[0]]=p[1]
+})
+vis.init(params);
+</script>
+</body>
+</html>
