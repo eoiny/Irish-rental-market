@@ -3,7 +3,7 @@ A Look at the Irish Property Rental Market
 
 This a data visualisation that uses d3js, and boostrap to illuminate the publically available dataset published by the PTRB.
 
-The current version is the first working draft and needs to be refactored and rationalised. See demo [here].
+The current version is the first working draft and needs to be refactored and rationalised. See demo [here](http://www.eol.as/viz/multiples/).
 
 It based on two tutorials:
 * Mike Bostock's  [Let’s Make a Map](http://bost.ocks.org/mike/map/).
